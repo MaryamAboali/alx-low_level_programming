@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
  * main - entry point
  *
- * Description: false or true validation.
+ * Description: false or true validation
  *
  * Return : 0 (success)
 */
