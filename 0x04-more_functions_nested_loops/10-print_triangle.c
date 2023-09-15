@@ -6,9 +6,9 @@
  * @size: size of the triangle
  *
  * Return: Always 0 (Success)
- */
+*/
 
-void print_most_numbers(void)
+void print_triangle(int size)
 {
 	int hght, base;
 
@@ -16,9 +16,9 @@ void print_most_numbers(void)
 		_putchar('\n');
 	else
 	{
-		for (hght = 1; hght <= 9; hght++)
+		for (hght = 1; hght <= size; hght++)
 		{
-			for (base = 1; base <= 9; base++)
+			for (base = 1; base <= size; base++)
 			{
 				if ((hght + base) <= size)
 					_putchar(' ');
