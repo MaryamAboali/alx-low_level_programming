@@ -5,7 +5,7 @@
  *              can only use _putchar three times
  *
  * Return: Always 0 (Success)
- */
+*/
 
 void more_numbers(void)
 {
