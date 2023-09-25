@@ -25,3 +25,4 @@ void print_diagsums(int *a, int size)
 
 	printif("%d, %d\n", sum1, sum2);
 }
+
