@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 
@@ -33,3 +34,11 @@ int main(int argc, char *argv[])
 	{
 		while (num >= coins[j])
 		{
+			result++;
+			num -= coins[j];
+		}
+	}
+
+	printf("%d\n", result);
+	return (0);
+}
