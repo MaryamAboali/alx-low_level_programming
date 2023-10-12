@@ -57,7 +57,7 @@ void print_all(const char * const format, ...)
 	va_list ap;
 	token_t tokens[] = {
 		{"c", format_char},
-		{"i", format_integer},
+		{"i", format_int},
 		{"f", format_float},
 		{"s", format_string},
 		{NULL, NULL}
