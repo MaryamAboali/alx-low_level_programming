@@ -5,7 +5,7 @@
  * @head: pointer to frist node
  * @n: value for a new node
  *
- * Return: pointer ti new node
+ * Return: pointer to new node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
