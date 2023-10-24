@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end
+ * add_nodeint_end - adds a node to the bottom
  * @head: pointer to frist node
  * @n: value of new node
  *
