@@ -3,7 +3,7 @@
 
 /**
  * binary_to_uint - converts a binary number string to unsigned int
- * @b: a binary number as a string
+ * @b: the binary number as a string
  *
  * Return: the unsigned int from of b
  */
