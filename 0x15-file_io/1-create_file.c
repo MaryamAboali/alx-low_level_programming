@@ -3,7 +3,7 @@
 /**
  * _strlen - returns the length of a string
  * @s: he string whose length to check
- * 
+ *
  * Return: integer length of string
  */
 int _strlen(char *s)
@@ -21,7 +21,7 @@ int _strlen(char *s)
  * create_file - creats a file
  * @filename: name of file to create
  * @text_content: text to write
- * 
+ *
  * Return: 1 on success 0 on failure
  */
 int create_file(const char *filename, char *text_content)
